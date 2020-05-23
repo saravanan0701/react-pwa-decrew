@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pwa-banner {
+  z-index : 500000;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 1rem;
+  background : #000;
+  transition: all 5s cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition: all 5s cubic-bezier(0.19, 1, 0.22, 1);
+  -moz-transition: all 5s cubic-bezier(0.19, 1, 0.22, 1);
+  -ms-transition: all 5s cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: all 5s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+
+.pwa-prompt-button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.pwa-prompt-close{
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+  margin-right: 2rem;
+  color: white;
+}
